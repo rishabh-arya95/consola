@@ -2,10 +2,10 @@
 framework: jest
 postMerge:
   pattern:
-    - "./test/*.test.js"
+    - "./test/*.js"
 preMerge:
   pattern:
-    - "./test/*.test.js"
+    - "./test/*.js"
 preRun:
      command:
         - yarn install --immutable
