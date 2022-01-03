@@ -3,9 +3,13 @@ framework: jest
 postMerge:
   pattern:
     - "./test/*.js"
+  env: 
+    NPM_TOKEN: test
 preMerge:
   pattern:
     - "./test/*.js"
+  env: 
+    NPM_TOKEN: test
 preRun:
      command:
         - yarn install --immutable
