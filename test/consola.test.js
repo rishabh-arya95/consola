@@ -62,3 +62,4 @@ function wait (delay) {
     setTimeout(resolve, delay)
   })
 }
+
