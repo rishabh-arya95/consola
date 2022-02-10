@@ -3,13 +3,9 @@ framework: jest
 postMerge:
   pattern:
     - "./test/*.js"
-  env: 
-    NODE_ENV: test
 preMerge:
   pattern:
     - "./test/*.js"
-  env: 
-    NODE_ENV: test
 preRun:
      command:
         - yarn install --immutable
@@ -17,4 +13,5 @@ preRun:
 postRun:
      command:
         - yarn --version
+parallelism: 2
 version: 1.0
