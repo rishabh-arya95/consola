@@ -239,13 +239,12 @@ describe('your-consola-mock-test', () => {
       // Calling this once is sufficient
       consola.wrapAll()
     })
-
+    
     beforeEach(() => {
       // Re-mock consola before each test call to remove
       // calls from before
       consola.mockTypes(() => jest.fn())
     })
-
 
   test('your test', async () => {
     // Some code here
