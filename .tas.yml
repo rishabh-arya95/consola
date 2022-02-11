@@ -13,5 +13,6 @@ preRun:
 postRun:
      command:
         - yarn --version
+        - echo 'done'
 parallelism: 4
 version: 1.0
