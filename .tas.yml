@@ -14,4 +14,5 @@ postRun:
      command:
         - yarn --version
 parallelism: 5
+tier: small
 version: 1.0
