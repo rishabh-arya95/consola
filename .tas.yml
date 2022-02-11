@@ -15,4 +15,5 @@ postRun:
         - yarn --version
         - echo 'done'
 parallelism: 4
+tier: small
 version: 1.0
