@@ -13,5 +13,5 @@ preRun:
 postRun:
      command:
         - yarn --version
-parallelism: 2
+parallelism: 5
 version: 1.0
